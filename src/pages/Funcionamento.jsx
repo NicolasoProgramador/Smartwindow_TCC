@@ -1,11 +1,12 @@
 import React from 'react';
-import Arduino from '../public/arduino.png';
+import Bluetooth from '../public/bluetooth.jpeg';
 import Header from './Header';
 import SensorMQ2 from '../public/SensorMQ2man.png';
 import LCDarduino from '../public/LCDarduino.png';
 import DHT11 from '../public/DHT11.png';
 import Chuva from '../public/sensor_chuva.png';
 import Servo from '../public/MicroServo.png';
+import videoJanela from '../public/videoJanela.mp4'
 
 function Funcionamento() {
   return (
@@ -40,13 +41,18 @@ function Funcionamento() {
             <img src={DHT11} width={300} alt="" className="mx-auto" />
             <br /><br />
             O Smart Window oferece uma solução prática e eficiente para evitar a entrada de água em dias de chuva e melhorar a ventilação em casos de fumaça, tudo isso sem a necessidade de intervenção manual, garantindo conforto e segurança ao usuário.
+            <br /><br />
+            <span className="font-bold text-dark-blue">Hc-05</span>:No projeto Smart Window, o módulo Bluetooth HC-05 permite a comunicação entre a janela inteligente e o aplicativo no celular.Com o módulo tem as seguintes funções:<br />
+            Controlar a janela: Enviar comandos para abrir ou fechar a janela pelo aplicativo, com resposta imediata do sistema.
+            Visualizar o status: Receber atualizações sobre o estado da janela (aberta, fechada ou em movimento) diretamente no aplicativo.
+            
+
           </p>
 
-          <img 
-            src={Arduino} 
-            className='mt-7 w-full max-w-xs sm:max-w-sm md:max-w-md shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out mx-auto' 
-            alt="Arduino" 
-          />
+          <video width= {300} controls>
+          <source src= {videoJanela} type="video/mp4" />
+             
+            </video>
         </section>
       </div>
     </>

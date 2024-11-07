@@ -125,6 +125,21 @@ function Materiais() {
             <img src={Servo} width={300} />
           </div>
         </section>
+
+        <section className="mt-10">
+        <div className='flex flex-col items-center'>
+        <h2 className='font-kulim text-dark-blue text-3xl md:text-4xl font-bold text-center'>HC-05</h2>  
+        </div>
+        <div className="max-w-3xl mx-auto text-center">
+
+        <p className="font-kulim font-bold text-base md:text-2xl mt-4">
+        No projeto Smart Window, o módulo Bluetooth HC-05 permite a comunicação entre a janela inteligente e o aplicativo no celular.Com o módulo tem as seguintes funções:<br />
+        Controlar a janela: Enviar comandos para abrir ou fechar a janela pelo aplicativo, com resposta imediata do sistema.
+        Visualizar o status: Receber atualizações sobre o estado da janela (aberta, fechada ou em movimento) diretamente no aplicativo.Valor Estimado: R$ 25,00 a R$ 50,00, dependendo do fornecedor.
+        
+        </p>
+        </div>
+        </section>
       
       </div>
     </>

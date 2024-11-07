@@ -8,6 +8,7 @@ import Integrantes from './pages/Integrantes.jsx'
 import Bibliografia from './pages/Bibliografia.jsx'
 import Materiais from './pages/Materiais.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Jogo from './pages/Jogo.jsx'
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,14 @@ const router = createBrowserRouter([
    path: "/bibliografias",
    element: <Bibliografia />
   },
+
+  {
+    path: "/jogo",
+    element: <Jogo />
+   },
+
+
+
  ])
 
 function App() {

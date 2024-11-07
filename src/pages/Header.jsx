@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to={"/materiais"} className="text-space-blue hover:text-dark-bluu">Materiais</Link>
           <Link to={"/bibliografias"} className="text-space-blue hover:text-dark-bluu">Referências</Link>
           <Link to={"/integrantes"} className="text-space-blue hover:text-dark-bluu">Integrantes</Link>
+          <Link to={"/jogo"} className="text-space-blue hover:text-dark-bluu">Jogo</Link>
         </div>
 
         <div className="md:hidden">
@@ -38,6 +39,7 @@ const Navbar = () => {
           <Link to = "/materiais" className="text-space-blue hover:text-dark-bluu py-2 border-t border-gray-300">Materiais</Link>
           <Link to = "/bibliografias" className="text-space-blue hover:text-dark-bluu py-2 border-t border-gray-300">Referências</Link>
           <Link to = "/integrantes" className="text-space-blue hover:text-dark-bluu py-2 border-t border-gray-300">Integrantes</Link>
+          <Link to={"/jogo"} className="text-space-blue hover:text-dark-bluu py-2 border-t border-gray-300">Jogo</Link>
         </div>
       )}
     </nav>
