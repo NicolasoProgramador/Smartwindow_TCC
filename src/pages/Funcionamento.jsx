@@ -5,7 +5,7 @@ import LCDarduino from '../public/LCDarduino.png';
 import DHT11 from '../public/DHT11.png';
 import Chuva from '../public/sensor_chuva.png';
 import Servo from '../public/MicroServo.png';
-import videoJanela from '../public/videoJanela.mp4'
+
 
 function Funcionamento() {
   return (
