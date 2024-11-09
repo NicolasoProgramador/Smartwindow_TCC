@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Video from '../public/videoJogo.mp4'
+
 
 function Jogo() {
   return (
@@ -23,11 +23,8 @@ function Jogo() {
           </p>
           <br />
           <br />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/p4TMreQ_34s?si=4LwtklEgF16haawR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <video width="600" controls>
-          <source src= {Video} type="video/mp4" />
-           Seu navegador não suporta a tag de vídeo.
-           </video>
         </section>
         <br />
         <br />

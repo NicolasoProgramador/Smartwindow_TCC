@@ -1,5 +1,4 @@
 import React from 'react';
-import Bluetooth from '../public/bluetooth.jpeg';
 import Header from './Header';
 import SensorMQ2 from '../public/SensorMQ2man.png';
 import LCDarduino from '../public/LCDarduino.png';
@@ -48,11 +47,10 @@ function Funcionamento() {
             
 
           </p>
+          <br />
+          <br />
 
-          <video width= {300} controls>
-          <source src= {videoJanela} type="video/mp4" />
-             
-            </video>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IAt3qrxfll0?si=tcUSKy8oGkaz9Ksa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
       </div>
     </>
